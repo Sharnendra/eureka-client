@@ -1,0 +1,12 @@
+server:
+  port: 9001    #default port where the service will be started
+
+logging:
+    level:
+          com.acquire.eurekaserviceretriever: DEBUG
+eureka:
+  client:
+      ribbon:
+        MaxAutoRetries: 3
+        MaxAutoRetriesNextServer: 3
+        OkToRetryOnAllOperations: true
