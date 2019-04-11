@@ -38,7 +38,7 @@ class RibbonConfiguration {
     public IRule ribbonRule(IClientConfig config) {
         return new WeightedResponseTimeRule();
     }
-    
+    //test
     @Bean
     LoadBalancedRetryFactory retryFactory() {
         return new LoadBalancedRetryFactory() {
